@@ -308,13 +308,13 @@ export default function AudioRecognition() {
                     <div>
                       <h3 className="text-lg uppercase tracking-wider text-gray-400 mb-2">Label</h3>
                       <p className="font-medium text-base text-gray-200">
-                        {result.track.sections?.[0]?.metadata?.find(m => m.title === 'Label')?.text || 'Unknown'}
+                        {result.track.sections?.[0]?.metadata?.find((m: any) => m.title === 'Label')?.text || 'Unknown'}
                       </p>
                     </div>
                     <div>
                       <h3 className="text-lg uppercase tracking-wider text-gray-400 mb-2">Released</h3>
                       <p className="font-medium text-base text-gray-200">
-                        {result.track.sections?.[0]?.metadata?.find(m => m.title === 'Released')?.text || 'Unknown'}
+                        {result.track.sections?.[0]?.metadata?.find((m: any) => m.title === 'Released')?.text || 'Unknown'}
                       </p>
                     </div>
                   </div>
