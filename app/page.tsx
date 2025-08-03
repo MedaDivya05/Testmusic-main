@@ -1,4 +1,3 @@
-import { SongIdentifier } from '@/components/song-identifier';
 import Link from 'next/link';
 import AudioRecognition from '../components/AudioRecognition';
 
@@ -22,7 +21,7 @@ export default function Home() {
           </div>
         </header>
         
-        <SongIdentifier />
+        
         
         <footer className="mt-16 text-center text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} SongID. All rights reserved.</p>
