@@ -184,7 +184,7 @@ export default function AudioRecognition() {
       const response = await fetch('https://shazam-song-recognition-api.p.rapidapi.com/recognize/file', {
         method: 'POST',
         headers: {
-          'x-rapidapi-key': 'aeba2d6e6amsh2c9a9eb4c81a4e2p179ef2jsnfaff651b873a',
+          'x-rapidapi-key': process.env.NEXT_PUBLIC_RAPIDAPI_KEY || '',
           'x-rapidapi-host': 'shazam-song-recognition-api.p.rapidapi.com',
         },
         body: formData,
