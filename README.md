@@ -106,3 +106,12 @@ When recording audio for song identification:
 2. Record at least 5-10 seconds of the song
 3. Make sure the audio is in mono format (single channel)
 4. For best results, record the chorus or most distinctive part of the song
+
+##  Live Demo
+
+ **Deployed App:**  
+ [Click here to Visit App](https://testmusic-main-dt5x-git-main-medadivya05s-projects.vercel.app/)
+
+ **Demo Video:**  
+ [Watch demo video on Google Drive](https://drive.google.com/file/d/1o51Csw_pEGzyghWJBPtObK95nBpPoZGO/view?usp=sharing)
+
